@@ -1,7 +1,5 @@
-Arnaud Ajamian
+Arnaud Ajamian</br>
 BrainStation - Data Science
-
-04/04/2022
 
 # Project Title: E-Commerce Customer Churn Prediction
 
