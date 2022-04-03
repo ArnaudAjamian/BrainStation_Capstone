@@ -20,7 +20,7 @@ The capstone project was completed in its entirety in a single Jupyter Notebook 
 ## Setting Up the Requisite Conda Environment
 ---
 
-To set-up the necessary conda environment, please refer to the `capstone_conda_environment.yml` file. This file will enable you to create the necessary environment to run the Jupyter Notebook.
+To set-up the necessary conda environment, please refer to the `requirements` file. This will enable you to create the necessary environment to run the Jupyter Notebook.
 
 Creating the Conda environment may be done in one of two ways:
 - Create an environment from a `.txt` file
@@ -40,7 +40,7 @@ conda env -n <environment_name> --file requirements.txt
 
 2.) Activate the new environment:</br>
 ```python
-conda activate capstone
+conda activate <environment_name>
 ```
 </br>
 </br>
@@ -66,4 +66,4 @@ conda activate capstone
 ## Getting Started
 ---
 
-Once the requisite Conda environment has been created from the `.yml` file, one may access the Jupyter Notebook `Capstone Project - E-Commerce Customer Churn.ipynb`. If you wish to run any of the code contained within, be sure to download the data contained within the `E-Commerce Customer Churn Prediction - Data` folder. Within which, you can find the raw data (`E Commerce Dataset.xlsx`) that was used for this capstone project. 
+Once the requisite Conda environment has been created from the `.yml` file, one may access the Jupyter Notebook: `Capstone Project - E-Commerce Customer Churn.ipynb`. If you wish to run any of the code in the Notebook, be sure to download the data in the `E-Commerce Customer Churn Prediction - Data` folder. Within which, you can find the raw data (`E Commerce Dataset.xlsx`) that was used for this capstone project. 
